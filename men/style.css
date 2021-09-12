@@ -1,0 +1,156 @@
+h2{
+          font-family: "Ubuntu";
+          font-size: 2rem;
+          text-align: center;
+          color: #80122e;
+          text-decoration: #717171;
+          
+}
+h5{
+          font-family: "Ubuntu";
+          font-size: 2rem;
+          text-align: center;
+          color: #801278;
+          text-decoration: #717171;
+          text-decoration: line-through;
+}
+
+
+body{
+          background-color:#fffbfe;
+}
+.logo {
+          font-family: 'Pacifico', cursive;
+          color: rgb(104 16 120);
+          font-size: 2rem;
+          line-height: 80px;
+          padding: 0 100px;
+          font-weight: bold;
+          text-shadow: 1px 1px #e408c2a1
+          }
+@media (max-width: 1024px){
+          nav{
+                    text-align: center;
+                    font-size: 40%;
+          }
+
+}
+@media (max-width: 1024px){
+  .logo{
+  /* text-align: center; */
+  font-size: 4rem;
+  
+}}
+
+
+
+/* Women */
+
+.men_img{
+          width: 100%;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  top: 1rem;
+  bottom: 1rem;
+  height: 107%;
+}
+@media(max-width: 992px){
+  .slideshow-container{
+    height: 35%;
+    max-width: 400px;
+
+  }
+}
+@media(max-width: 1024px){
+  .slideshow-container{
+    height: 47%;
+    max-width: 950px;
+
+  }
+}
+/* @media(max-width: 360px){
+  .slideshow-container{
+    height: 1000%;
+    max-width: 400px;
+
+  }
+} */
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+@media (max-width: 992px) {
+          .prev1 .next1{
+                    top: 7000%;
+          }
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
